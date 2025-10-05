@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quantumnist</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Quantumnist</h1>
+        <nav>
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="{{ url_for('features') }}">Features</a>
+            <a href="{{ url_for('quiz') }}">Quiz</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Explore Quantum Concepts</h2>
+        <p>Learn and interact with quantum concepts in a fun way!</p>
+    </main>
+</body>
+</html>
